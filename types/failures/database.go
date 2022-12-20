@@ -1,8 +1,8 @@
 package failures
 
 import (
-	"github.com/statping-ng/statping-ng/database"
-	"github.com/statping-ng/statping-ng/types/metrics"
+	"github.com/nordcloud/statping-ng/database"
+	"github.com/nordcloud/statping-ng/types/metrics"
 )
 
 var db database.Database

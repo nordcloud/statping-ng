@@ -2,13 +2,13 @@ package handlers
 
 import (
 	"github.com/gorilla/mux"
-	"github.com/statping-ng/statping-ng/database"
-	"github.com/statping-ng/statping-ng/types/checkins"
-	"github.com/statping-ng/statping-ng/types/errors"
-	"github.com/statping-ng/statping-ng/types/failures"
-	"github.com/statping-ng/statping-ng/types/hits"
-	"github.com/statping-ng/statping-ng/types/services"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/database"
+	"github.com/nordcloud/statping-ng/types/checkins"
+	"github.com/nordcloud/statping-ng/types/errors"
+	"github.com/nordcloud/statping-ng/types/failures"
+	"github.com/nordcloud/statping-ng/types/hits"
+	"github.com/nordcloud/statping-ng/types/services"
+	"github.com/nordcloud/statping-ng/utils"
 	"net/http"
 )
 

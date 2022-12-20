@@ -3,11 +3,11 @@ package services
 import (
 	"time"
 
-	"github.com/statping-ng/statping-ng/types/checkins"
-	"github.com/statping-ng/statping-ng/types/failures"
-	"github.com/statping-ng/statping-ng/types/incidents"
-	"github.com/statping-ng/statping-ng/types/messages"
-	"github.com/statping-ng/statping-ng/types/null"
+	"github.com/nordcloud/statping-ng/types/checkins"
+	"github.com/nordcloud/statping-ng/types/failures"
+	"github.com/nordcloud/statping-ng/types/incidents"
+	"github.com/nordcloud/statping-ng/types/messages"
+	"github.com/nordcloud/statping-ng/types/null"
 )
 
 // Service is the main struct for Services

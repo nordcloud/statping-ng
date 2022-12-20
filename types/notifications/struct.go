@@ -2,8 +2,8 @@ package notifications
 
 import (
 	"github.com/sirupsen/logrus"
-	"github.com/statping-ng/statping-ng/types/null"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/types/null"
+	"github.com/nordcloud/statping-ng/utils"
 	"time"
 )
 

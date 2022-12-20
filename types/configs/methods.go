@@ -2,7 +2,7 @@ package configs
 
 import (
 	"fmt"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/utils"
 	"gopkg.in/yaml.v2"
 )
 

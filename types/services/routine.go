@@ -13,14 +13,14 @@ import (
 	"time"
 
 	"github.com/prometheus/client_golang/prometheus"
-	"github.com/statping-ng/statping-ng/types/checkins"
-	"github.com/statping-ng/statping-ng/types/metrics"
+	"github.com/nordcloud/statping-ng/types/checkins"
+	"github.com/nordcloud/statping-ng/types/metrics"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/credentials"
 
-	"github.com/statping-ng/statping-ng/types/failures"
-	"github.com/statping-ng/statping-ng/types/hits"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/types/failures"
+	"github.com/nordcloud/statping-ng/types/hits"
+	"github.com/nordcloud/statping-ng/utils"
 	healthpb "google.golang.org/grpc/health/grpc_health_v1"
 )
 

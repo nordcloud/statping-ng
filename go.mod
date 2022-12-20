@@ -1,4 +1,4 @@
-module github.com/statping-ng/statping-ng
+module github.com/nordcloud/statping-ng
 
 // +heroku goVersion go1.17
 go 1.17

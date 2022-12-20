@@ -360,10 +360,12 @@ certs:
 xgo-latest:
 	xgo --go $(GOVERSION) --targets=linux/amd64,linux/386,linux/arm-7,linux/arm-6,linux/arm64,windows/386,windows/amd64,darwin/386,darwin/amd64 --out='statping' --pkg='cmd' --dest=build --tags 'netgo' --ldflags='-X main.VERSION=${VERSION} -X main.COMMIT=$(COMMIT) -linkmode external -extldflags "-static"' .
 
-buildx-latest: multiarch
+buildx-latest:
 	docker buildx create --name statping-latest --driver-opt image=moby/buildkit:master
 	docker buildx inspect --builder statping-latest --bootstrap
-	docker buildx build --builder statping-latest --cache-from "type=local,src=/tmp/.buildx-cache" --cache-to "type=local,dest=/tmp/.buildx-cache,mode=max" --push --pull --platform linux/amd64,linux/arm64,linux/arm/v7,linux/arm/v6 -f Dockerfile -t adamboutcher/statping-ng:latest -t adamboutcher/statping-ng:v${VERSION} --build-arg=VERSION=${VERSION} --build-arg=COMMIT=${COMMIT} .
+	docker buildx build --builder statping-latest --cache-from "type=local,src=/tmp/.buildx-cache" --cache-to "type=local,dest=/tmp/.buildx-cache,mode=max" --pull --output=type=docker --platform linux/amd64 -f Dockerfile -t ${ECR_REPO}:latest -t ${ECR_REPO}:v${VERSION} --build-arg=VERSION=${VERSION} --build-arg=COMMIT=${COMMIT} .
+	docker push ${ECR_REPO}:latest
+	docker push ${ECR_REPO}:v${VERSION}
 	docker buildx rm statping-latest
 
 buildx-dev: multiarch

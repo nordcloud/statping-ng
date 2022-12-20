@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/utils"
 	"io"
 	"os"
 	"os/exec"

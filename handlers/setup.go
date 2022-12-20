@@ -2,12 +2,12 @@ package handlers
 
 import (
 	"errors"
-	"github.com/statping-ng/statping-ng/notifiers"
-	"github.com/statping-ng/statping-ng/types/configs"
-	"github.com/statping-ng/statping-ng/types/core"
-	"github.com/statping-ng/statping-ng/types/null"
-	"github.com/statping-ng/statping-ng/types/services"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/notifiers"
+	"github.com/nordcloud/statping-ng/types/configs"
+	"github.com/nordcloud/statping-ng/types/core"
+	"github.com/nordcloud/statping-ng/types/null"
+	"github.com/nordcloud/statping-ng/types/services"
+	"github.com/nordcloud/statping-ng/utils"
 	"net/http"
 	"net/url"
 	"strconv"

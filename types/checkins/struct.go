@@ -1,7 +1,7 @@
 package checkins
 
 import (
-	"github.com/statping-ng/statping-ng/types/failures"
+	"github.com/nordcloud/statping-ng/types/failures"
 	"time"
 )
 

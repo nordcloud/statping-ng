@@ -10,7 +10,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/utils"
 	"github.com/tdewolff/minify/v2"
 	"github.com/tdewolff/minify/v2/html"
 )

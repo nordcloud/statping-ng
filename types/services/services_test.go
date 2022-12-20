@@ -4,15 +4,15 @@ import (
 	"context"
 	"crypto/tls"
 	"github.com/gorilla/mux"
-	"github.com/statping-ng/statping-ng/database"
-	"github.com/statping-ng/statping-ng/types/checkins"
-	"github.com/statping-ng/statping-ng/types/failures"
-	"github.com/statping-ng/statping-ng/types/hits"
-	"github.com/statping-ng/statping-ng/types/incidents"
-	"github.com/statping-ng/statping-ng/types/messages"
-	"github.com/statping-ng/statping-ng/types/notifications"
-	"github.com/statping-ng/statping-ng/types/null"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/database"
+	"github.com/nordcloud/statping-ng/types/checkins"
+	"github.com/nordcloud/statping-ng/types/failures"
+	"github.com/nordcloud/statping-ng/types/hits"
+	"github.com/nordcloud/statping-ng/types/incidents"
+	"github.com/nordcloud/statping-ng/types/messages"
+	"github.com/nordcloud/statping-ng/types/notifications"
+	"github.com/nordcloud/statping-ng/types/null"
+	"github.com/nordcloud/statping-ng/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"google.golang.org/grpc"
@@ -595,7 +595,7 @@ services:
     <<: *tcpservice
 
   - name: Statping Github
-    domain: https://github.com/statping-ng/statping-ng
+    domain: https://github.com/nordcloud/statping-ng
     <<: *httpservice`
 
 		err := utils.SaveFile(utils.Directory+"/services.yml", []byte(file))

@@ -2,7 +2,7 @@ package notifications
 
 import (
 	"fmt"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/utils"
 	"strings"
 	"time"
 )

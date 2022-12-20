@@ -1,9 +1,9 @@
 package users
 
 import (
-	"github.com/statping-ng/statping-ng/database"
-	"github.com/statping-ng/statping-ng/types/null"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/database"
+	"github.com/nordcloud/statping-ng/types/null"
+	"github.com/nordcloud/statping-ng/utils"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"testing"

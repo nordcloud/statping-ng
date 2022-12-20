@@ -1,9 +1,9 @@
 package handlers
 
 import (
-	"github.com/statping-ng/statping-ng/source"
-	"github.com/statping-ng/statping-ng/types/core"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/source"
+	"github.com/nordcloud/statping-ng/types/core"
+	"github.com/nordcloud/statping-ng/utils"
 	"html/template"
 	"net/http"
 	"net/url"

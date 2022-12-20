@@ -1,10 +1,10 @@
 package incidents
 
 import (
-	"github.com/statping-ng/statping-ng/database"
-	"github.com/statping-ng/statping-ng/types/errors"
-	"github.com/statping-ng/statping-ng/types/metrics"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/database"
+	"github.com/nordcloud/statping-ng/types/errors"
+	"github.com/nordcloud/statping-ng/types/metrics"
+	"github.com/nordcloud/statping-ng/utils"
 )
 
 var (

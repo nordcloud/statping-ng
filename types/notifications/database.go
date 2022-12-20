@@ -1,7 +1,7 @@
 package notifications
 
 import (
-	"github.com/statping-ng/statping-ng/database"
+	"github.com/nordcloud/statping-ng/database"
 )
 
 var (

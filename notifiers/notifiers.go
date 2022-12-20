@@ -5,10 +5,10 @@ import (
 	"html/template"
 	"time"
 
-	"github.com/statping-ng/statping-ng/types/core"
-	"github.com/statping-ng/statping-ng/types/failures"
-	"github.com/statping-ng/statping-ng/types/services"
-	"github.com/statping-ng/statping-ng/utils"
+	"github.com/nordcloud/statping-ng/types/core"
+	"github.com/nordcloud/statping-ng/types/failures"
+	"github.com/nordcloud/statping-ng/types/services"
+	"github.com/nordcloud/statping-ng/utils"
 )
 
 //go:generate go run generate.go

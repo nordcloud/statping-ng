@@ -25,7 +25,7 @@
 
 # 0.90.77 (08-18-2021)
 - More branding changes
-- Fix for go statping-ng/email deps (https://github.com/statping-ng/statping-ng/issues/9)
+- Fix for go statping-ng/email deps (https://github.com/nordcloud/statping-ng/issues/9)
 - [GITHUB] Fixed autobuilds
 
 # 0.90.76 (08-13-2021)

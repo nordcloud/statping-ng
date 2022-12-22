@@ -14,7 +14,9 @@ func AddNotifier(n ServiceNotifier) {
 func UpdateNotifiers() {
 	for _, n := range notifications.All() {
 		notifier := allNotifiers[n.Method]
-		notifier.Select().UpdateFields(n)
+		if notifier != nil {
+			notifier.Select().UpdateFields(n)
+		}
 	}
 }
 
